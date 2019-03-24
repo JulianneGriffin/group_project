@@ -1,7 +1,6 @@
-nav {
-  color: rgb(222,184,135);
-}
-
 body {
-  background-image: url("coffe-beans1.jpg");
+  background-image: url("coffee-beans1.jpg");
 }
+h1 {
+  color: white;
+  font-family: phosphate;
