@@ -1,0 +1,22 @@
+body {
+  background-image: url("coffee_beans.jpg");
+  background-size: 700px;
+}
+h1,p,a{
+  color: White;
+  text-align: center;
+  outline-color: saddlebrown;
+
+}
+h1 {
+  font-family: trebuchet MS;
+  font-weight: bold;
+  font-size:15em;
+  padding-top: 150px;
+  outline-width: medium;
+}
+p,a {
+  font-family: gabriola;
+  font-size:2em;
+  outline-width: thin;
+}
