@@ -1,5 +1,9 @@
 body {
-  background-color:white;
+  background-image:url("grind_logo.jpg");
+  background-size: 1800px;
+  background-repeat: no-repeat;
+  image-rendering: crisp-edges;
+  ;
 }
 h1,p,a{
   color: saddlebrown;
@@ -14,6 +18,7 @@ h1 {
   padding-top: 130px;
   padding-left: 0px;
   outline-width: medium;
+  text-align:left;
 }
 p,a {
   font-family: gabriola;
