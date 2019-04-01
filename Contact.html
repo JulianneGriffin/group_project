@@ -10,7 +10,7 @@
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
-    <link href="CSS/styles_about.css" rel="stylesheet">
+    <link href="CSS/styles_contact.css" rel="stylesheet">
   </head>
 
   <body>
@@ -33,7 +33,7 @@
             <a class="nav-link" href="#">Health</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="Contact.html">Contact<span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="Contact.html">Contact Us<span class="sr-only">(current)</span></a>
           </li>
         </ul>
         <button class="btn btn-danger navbar-btn">Buy it here!</button>
@@ -48,15 +48,28 @@
 
       <!-- columns -->
       <div class="row">
+      <div class="boxed">
         <div class="col-sm">
-          <img src="coffee_scrub.png" alt="coffee_scrub" width="350px">
+          <h2>Sign up to our newsletter to get the latest updates on our project!</h2>
+
+
         </div>
         <div class="col-sm">
-          <p> GRIND is a face scrub made from all natural ingredients: .... Sourced from... </p>
+          <form
+          action="mailto:julianne.r.g12@gmail.com" method="post"
+          enctype="text/plain">
+          Name:<br><input type="text"name="name"><br>
+          Email:<br><input type="text"name="mail"><br>
+          Comment:<br><input type="text"name="comment" size="50"><br>
+          <input type="submit"value="Send">
+          <input type="reset"value="Reset">
+         </form>
         </div>
         <div class="col-sm">
-          One of three columns
+         <p>Follow us to find out more</p>
+
         </div>
+      </div>
       </div>
 
     </main>
