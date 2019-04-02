@@ -5,7 +5,7 @@ body {
 h1 {
   font-family: trebuchet MS;
   font-weight: bold;
-  font-size:10em;
+  font-size:15em;
   padding-top: 10px;
   outline-width: medium;
 }
@@ -31,7 +31,6 @@ b {
 
 .carousel-item {
   height: 100vh;
-  min-height: 350px;
   background: no-repeat center center scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -40,4 +39,12 @@ b {
 }
 .display-4 {
   height:40vh;
+  font-size: 4.3em;
+  padding-bottom: 0px;
+}
+
+.lead {
+  height:5vh;
+  padding-top: 0px;
+  font-size: 1.7em;
 }
