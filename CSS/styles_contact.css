@@ -1,13 +1,11 @@
 body {
-  background-image: url("coffee_beans.jpg");
-  background-size: 700px;
+  background-image: url("Coffee-beans.jpg");
+  background-size: cover;
 }
 h1,p,a{
-  color: White;
   text-align: left;
-  outline-color: saddlebrown;
-
 }
+
 h1 {
   font-family: trebuchet MS;
   font-weight: bold;
@@ -15,21 +13,27 @@ h1 {
   padding-top: 130px;
   padding-left:0px;
   outline-width: medium;
+  color: White;
 }
-h2 {
+
+a {
+  font-family: gabriola;
+  font-size:1em;
+  outline-width: thin;
   color: #4d2600;
 }
-p,a {
+p {
   font-family: gabriola;
   font-size:2em;
   outline-width: thin;
   color: #4d2600;
 }
-div.boxed {
+div.col1-sm {
   border: 1px solid white ;
+  border-radius: 5px;
   text-decoration-color: #4d2600;
   background-color: white;
-  width: 1100px;
-  height: 400px;
-  opacity: 0.5;
+  width: 400px;
+  height: 500px;
+  opacity: 0.7;
 }
