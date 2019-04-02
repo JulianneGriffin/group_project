@@ -38,3 +38,6 @@ b {
   -o-background-size: cover;
   background-size: cover;
 }
+.display-4 {
+  height:40vh;
+}
