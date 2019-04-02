@@ -14,10 +14,19 @@ h2 {
   font-size:10em;
   outline-width: thin;
 }
-p,a {
+p {
   font-family: gabriola;
-  font-size:2em;
+  font-size:3em;
   outline-width: thin;
+}
+a {
+  font-family: gabriola;
+  font-size:1.5em;
+  outline-width: thin;
+}
+b {
+  font-family: trebuchet MS;
+  font-size:3em;
 }
 
 .carousel-item {
