@@ -27,6 +27,7 @@ p,a {
 }
 .carousel {
   margin-bottom: auto;
+  margin-top: 1.5rem;
   align-items: center;
 }
 /* Since positioning the image, we need to help out the caption */
@@ -55,6 +56,7 @@ p,a {
 /* Center align the text within the three columns below the carousel */
 .marketing .col-lg-4 {
   margin-bottom: 1.5rem;
+  margin-top: 2rem;
   text-align: center;
 }
 .marketing h2 {
