@@ -48,3 +48,30 @@ b {
   padding-top: 0px;
   font-size: 1.7em;
 }
+
+.navbar-brand {
+  font-family: trebuchet MS;
+  font-weight: bold;
+  font-stretch: expanded;
+  font-size: 2em;
+  color: white;
+}
+
+.nav-link {
+  font-family: gabriola;
+  font-size:1.5em;
+  color: white;
+}
+
+.navbar {
+  background-color: rgb(51,17,0,0.4);
+  padding-left: 10px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-right: 10px;
+  color: white;
+}
+
+.navbar-expand-md{
+  color:grey;
+}

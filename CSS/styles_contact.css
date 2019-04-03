@@ -37,3 +37,24 @@ div.col1-sm {
   height: 500px;
   opacity: 0.7;
 }
+
+.navbar-brand {
+  font-family: trebuchet MS;
+  font-weight: bold;
+  font-stretch: expanded;
+  font-size: 2em;
+  color: white;
+}
+
+.nav-link {
+  font-family: gabriola;
+  font-size:1.5em;
+}
+
+.navbar {
+  background-color: rgb(51,17,0,0.4);
+  padding-left: 10px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-right: 10px;
+}
